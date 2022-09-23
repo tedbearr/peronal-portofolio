@@ -9,12 +9,24 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, My name is ..</h2>
+        <h2>Hi, My name is Teddy Setiawan</h2>
         <div className="prompt">
-          <p> A Human who write the code </p>
-          <LinkedInIcon />
+          <p> Web Programmer </p>
+          <a
+            href="https://www.linkedin.com/in/teddy-setiawan-58aa09229/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon />
+          </a>
           <EmailIcon />
-          <GitHubIcon />
+          <a
+            href="https://github.com/tedbearr"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
@@ -22,15 +34,17 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Front-end</h2>
-            <span>HTML</span>
+            <span>HTML, CSS, ReactJS, BootStrap</span>
           </li>
           <li className="item">
             <h2>Back-end</h2>
-            <span>HTML</span>
+            <span>
+              NodeJs, ExpressJS, MySQL, PostgreSQL, Laravel, CodeIgniter, Zend
+            </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>HTML</span>
+            <span>JavaScript, PHP</span>
           </li>
         </ol>
       </div>
