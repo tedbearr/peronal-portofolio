@@ -28,6 +28,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  body{
+    text-align: center;
+  }
+
   .project img {
     width: 300px;
   }
@@ -38,6 +42,5 @@
     align-items: center;
     flex-direction: column;
     font-size: x-large;
-    margin-left: 10px;
   }
 }
